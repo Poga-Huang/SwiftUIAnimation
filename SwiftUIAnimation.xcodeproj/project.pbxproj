@@ -11,6 +11,13 @@
 		654E0FDD2D3F447F005E81E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E0FDC2D3F447F005E81E7 /* ContentView.swift */; };
 		654E0FDF2D3F4480005E81E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654E0FDE2D3F4480005E81E7 /* Assets.xcassets */; };
 		654E0FE22D3F4480005E81E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654E0FE12D3F4480005E81E7 /* Preview Assets.xcassets */; };
+		654E0FE92D3F944B005E81E7 /* AnyTransition+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E0FE82D3F944B005E81E7 /* AnyTransition+Extension.swift */; };
+		654E0FEB2D3F9465005E81E7 /* HeartAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E0FEA2D3F9465005E81E7 /* HeartAnimation.swift */; };
+		654E0FED2D3F9481005E81E7 /* HorizontalLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E0FEC2D3F9481005E81E7 /* HorizontalLoading.swift */; };
+		654E0FEF2D3F9497005E81E7 /* PercentProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E0FEE2D3F9497005E81E7 /* PercentProgress.swift */; };
+		654E0FF12D3F94B4005E81E7 /* CircleDelayLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E0FF02D3F94B4005E81E7 /* CircleDelayLoading.swift */; };
+		654E0FF32D3F94D1005E81E7 /* DetailTranstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E0FF22D3F94D1005E81E7 /* DetailTranstion.swift */; };
+		654E0FF52D3F95DB005E81E7 /* CircleLoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E0FF42D3F95DB005E81E7 /* CircleLoding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		654E0FDC2D3F447F005E81E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		654E0FDE2D3F4480005E81E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		654E0FE12D3F4480005E81E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		654E0FE82D3F944B005E81E7 /* AnyTransition+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyTransition+Extension.swift"; sourceTree = "<group>"; };
+		654E0FEA2D3F9465005E81E7 /* HeartAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAnimation.swift; sourceTree = "<group>"; };
+		654E0FEC2D3F9481005E81E7 /* HorizontalLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalLoading.swift; sourceTree = "<group>"; };
+		654E0FEE2D3F9497005E81E7 /* PercentProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentProgress.swift; sourceTree = "<group>"; };
+		654E0FF02D3F94B4005E81E7 /* CircleDelayLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDelayLoading.swift; sourceTree = "<group>"; };
+		654E0FF22D3F94D1005E81E7 /* DetailTranstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTranstion.swift; sourceTree = "<group>"; };
+		654E0FF42D3F95DB005E81E7 /* CircleLoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLoding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				654E0FDA2D3F447F005E81E7 /* SwiftUIAnimationApp.swift */,
 				654E0FDC2D3F447F005E81E7 /* ContentView.swift */,
+				654E0FE82D3F944B005E81E7 /* AnyTransition+Extension.swift */,
+				654E0FEA2D3F9465005E81E7 /* HeartAnimation.swift */,
+				654E0FEC2D3F9481005E81E7 /* HorizontalLoading.swift */,
+				654E0FEE2D3F9497005E81E7 /* PercentProgress.swift */,
+				654E0FF02D3F94B4005E81E7 /* CircleDelayLoading.swift */,
+				654E0FF42D3F95DB005E81E7 /* CircleLoding.swift */,
+				654E0FF22D3F94D1005E81E7 /* DetailTranstion.swift */,
 				654E0FDE2D3F4480005E81E7 /* Assets.xcassets */,
 				654E0FE02D3F4480005E81E7 /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654E0FED2D3F9481005E81E7 /* HorizontalLoading.swift in Sources */,
 				654E0FDD2D3F447F005E81E7 /* ContentView.swift in Sources */,
+				654E0FE92D3F944B005E81E7 /* AnyTransition+Extension.swift in Sources */,
 				654E0FDB2D3F447F005E81E7 /* SwiftUIAnimationApp.swift in Sources */,
+				654E0FEF2D3F9497005E81E7 /* PercentProgress.swift in Sources */,
+				654E0FF32D3F94D1005E81E7 /* DetailTranstion.swift in Sources */,
+				654E0FF12D3F94B4005E81E7 /* CircleDelayLoading.swift in Sources */,
+				654E0FEB2D3F9465005E81E7 /* HeartAnimation.swift in Sources */,
+				654E0FF52D3F95DB005E81E7 /* CircleLoding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
